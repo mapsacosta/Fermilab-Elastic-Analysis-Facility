@@ -1,23 +1,43 @@
+======================
+|theme_display| Sample
+======================
+
 Welcome to the Fermilab EAF documentation!
 ===================================
 
-The **Fermilab Elastic Analysis Facility** is a set of infrastructure and services that provide integrated data, software and computational resources to execute one or more elements of analysis workflows for Fermilab experiments and scientists. These resources are centrally managed by the Scientific Computing Division at Fermilab as part of the EAF project. Check out the :doc:`getting started` section for further information, including how to :ref:`log in`, navigate the environments and use the analysis tools ecosystem. 
+The **Fermilab Elastic Analysis Facility** is a kubernetes-based platform providing services for integrated data, software and computational resources to execute one or more elements of scientific analysis workflows for Fermilab experiments and scientists. 
+These resources are centrally managed by the Scientific Computing Division at Fermilab as part of the EAF project and generally available for all Fermilab users. Check out the :doc:`userdocs/index` section for more information on environments, general user documentation for the analysis tools ecosystem and navigating the UI.
 
-.. note::
+.. important::
 
-   This project is under active development. The current stage is beta, please provide feedback at our `GitHub repo <https://github.com/mapsacosta/EAFJupyter/>`
+    This project is under active development and is currently in beta testing stage. Please provide feedback and include your project requirements at our `GitHub repo <https://github.com/mapsacosta/EAFJupyter>`_ by opening an issue or email us at `eaf-admins@fnal.gov <mailto:eaf-admins@fnal.gov>`_.
 
-Contents
---------
+
+Quickstart
+==========
+
+1. Connect to VPN or make sure you are connected to a Fermilab network.
+
+2. Navigate to the JupyterHub home page `https://analytics-hub.fnal.gov <https://analytics-hub.fnal.gov>`_
+
+3. Log in with your SERVICES account credentials.
+
+
+Exploring
+===========
+
+The :doc:`userdocs/index` section contains all available documentation for users of the facility.
 
 .. toctree::
+    :titlesonly:
 
-   getting started
-   usage
-   available environments/notebooks (production)
-   available environments/notebooks (dev)
-   graphic libraries
-   user interface and plugins
-   use cases
-   projects
-   contact
+    userdocs/index
+
+Browsing through that section should give you a good idea of how to naviagte the facility and enable it for use on your scientific endeavors.
+
+The :doc:`userdocs/envs` section contains a detailed description and source codes of all available environments and application containers currently deployed on the facility.
+
+.. toctree::
+    :titlesonly:
+
+    userdocs/envs
