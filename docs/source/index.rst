@@ -1,22 +1,23 @@
-Welcome to Lumache's documentation!
+Welcome to the Fermilab EAF documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The **Fermilab Elastic Analysis Facility** is a set of infrastructure and services that provide integrated data, software and computational resources to execute one or more elements of analysis workflows for Fermilab experiments and scientists. These resources are centrally managed by the Scientific Computing Division at Fermilab as part of the EAF project. Check out the :doc:`getting started` section for further information, including how to :ref:`log in`, navigate the environments and use the analysis tools ecosystem. 
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. The current stage is beta, please provide feedback at our `GitHub repo <https://github.com/mapsacosta/EAFJupyter/>`
 
 Contents
 --------
 
 .. toctree::
 
+   getting started
    usage
-   api
+   available environments/notebooks (production)
+   available environments/notebooks (dev)
+   graphic libraries
+   user interface and plugins
+   use cases
+   projects
+   contact
