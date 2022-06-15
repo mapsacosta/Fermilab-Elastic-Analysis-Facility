@@ -1,9 +1,6 @@
 ======================
-|theme_display| Sample
+|theme_display| Welcome to the Fermilab EAF documentation!
 ======================
-
-Welcome to the Fermilab EAF documentation!
-===================================
 
 The **Fermilab Elastic Analysis Facility** is a kubernetes-based platform providing services for integrated data, software and computational resources to execute one or more elements of scientific analysis workflows for Fermilab experiments and scientists. 
 These resources are centrally managed by the Scientific Computing Division at Fermilab as part of the EAF project and generally available for all Fermilab users. Check out the :doc:`userdocs/index` section for more information on environments, general user documentation for the analysis tools ecosystem and navigating the UI.
