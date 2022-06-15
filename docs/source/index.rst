@@ -32,9 +32,9 @@ The :doc:`userdocs/index` section contains all available documentation for users
 
 Browsing through that section should give you a good idea of how to naviagte the facility and enable it for use on your scientific endeavors.
 
-The :doc:`userdocs/envs` section contains a detailed description and source codes of all available environments and application containers currently deployed on the facility.
+The :doc:`userenvs/index` section contains a detailed description and source codes of all available environments and application containers currently deployed on the facility.
 
 .. toctree::
     :titlesonly:
 
-    userdocs/envs
+    userenvs/index

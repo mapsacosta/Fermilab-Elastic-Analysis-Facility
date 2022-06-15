@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Fermilab Elastic Analysis Facility'
+copyright = '2021, Fermilab, a DOE National Laboratory'
+author = 'Maria Acosta Flechas'
 
 release = '0.1'
 version = '0.1.0'
